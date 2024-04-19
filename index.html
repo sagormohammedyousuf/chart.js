@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Chart.js</title>
+</head>
+<body>
+ 
+    <div class="chart-container">
+      
+       <div class="chart-left"></div>
+       <div class="chart-main">
+        <div class="type-buttons">
+          <button class="type-btn" id="btn-bar" onclick="chartType('bar')">Bar</button>
+          <button class="type-btn" id="btn-line" onclick="chartType('line')">Line</button>
+          <button class="type-btn" id="btn-doughnut" onclick="chartType('doughnut')">Doughnut</button>
+          <button class="type-btn" id="btn-pie" onclick="chartType('pie')">Pie</button>
+        </div>
+        <canvas id="myChart">
+          <p>Hello Fallback World</p>
+      </canvas>
+       </div>
+       <div class="chart-right"></div>
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
+    
+<script src="script.js">
+   
+  </script>
+    
+</body>
+</html>
